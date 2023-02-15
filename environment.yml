@@ -1,7 +1,7 @@
 channels:
-  - conda-forge
-  - knime
+  -conda-forge
+  -knime
 dependencies:
-  - python=3.9              # base dependency
-  - knime-python-base=4.6  # base dependency
-  - knime-extension=4.6    # base dependency
+  -python=3.9              # base dependency
+  -knime-python-base=4.6  # base dependency
+  -knime-extension=4.6    # base dependency
