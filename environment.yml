@@ -1,7 +1,8 @@
+name: my_python_env
 channels:
-  -conda-forge
-  -knime
+  - knime
+  - conda-forge
 dependencies:
-  -python=3.9              # base dependency
-  -knime-python-base=4.6  # base dependency
-  -knime-extension=4.6    # base dependency
+  - python=3.9              # base dependency
+  - knime-python-base=4.6  # base dependency
+  - knime-extension=4.6    # base dependency
