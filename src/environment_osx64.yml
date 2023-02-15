@@ -1,0 +1,17 @@
+name: offtarget_env_internal
+channels:
+  - knime
+  - conda-forge
+dependencies:
+  - python=3.9              # base dependency
+  - knime-python-base>=4.6  # base dependency
+  - knime-extension>=4.6    # base dependency
+  - keras 
+  - h5py
+  - tensorflow-cpu
+  - py4j
+  - pandas
+
+
+
+

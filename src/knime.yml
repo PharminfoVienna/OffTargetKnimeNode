@@ -1,0 +1,13 @@
+name: offtarget # Will be concatenated with the group_id to an ID
+author: Pharmacoinformatics Research Group.
+env_yml_path: 
+  osx-64: environment_osx64.yml 
+  linux-64: environment_linux64.yml
+  win-64: environment_win64.yml
+extension_module: offtarget_extension # The .py Python module containing the nodes of your extension
+description: Off-Target safety assessment  # Human readable bundle name / description
+long_description: "A KNIME node for off-target panel safety assessment of small molecules. See Naga, D., Muster, W., Musvasva, E. et al. Off-targetP ML: an open source machine learning framework for off-target panel safety assessment of small molecules. J Cheminform 14, 27 (2022). https://doi.org/10.1186/s13321-022-00603-w for further information"
+group_id: at.ac.univie.pharminfo 
+version: 0.1.0 # Version of this Python node extension
+vendor: University of Vienna, Pharmacoinformatics Research Group.
+license_file: LICENSE.TXT # Best practice: put your LICENSE.TXT next to the knime.yml; otherwise you would need to change to path/to/LICENSE.txt
