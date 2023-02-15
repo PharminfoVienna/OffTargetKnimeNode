@@ -19,7 +19,9 @@ jobs:
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Install the environment
-      run: conda create -n knime-builder -y python=3.9 knime-python-base=4.6 knime-extension=4.6 -c knime -c conda-forge
+      run: | 
+          conda create -n knime-builder -y python=3.9 knime-python-base=4.6 knime-extension=4.6 -c knime -c conda-forge
+          conda activate knime-builder
     - name: Run build script 
       run: build_python_extension.py --knime-version 4.6 src/ off_target_v46/ 
     - name: Create artifact
